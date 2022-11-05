@@ -1,0 +1,127 @@
+ body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font:normal 16px Arial,Helvetica,san-sarif;
+    line-height: 1.6em;
+    margin: 0;
+ }
+
+ a{
+    text-decoration: none;
+    color: #000;
+ }
+ a:hover{
+    color: red;
+ }
+ a:active{
+    color: green;
+}
+
+
+ .container{
+    width: 80%;
+     margin: auto; 
+     margin-top: 20px;/* It Allolw for responsiveness */
+ }
+
+ .button{
+   background-color: #333333;
+   color: #ffffff;
+   padding: 10px 15px;
+   border:none;
+   border-radius: 15px;
+}
+.button:hover{
+   color:rebeccapurple;
+}
+.clr{
+   
+}
+ .box-1{
+    background-color: #333;
+    color: #ffffff;
+    border: 5px #cccccc solid;
+    border-width: 3px;
+    border-radius: 15px;
+ }
+ .box-1 h1{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+ }
+ .box-2{
+    border: 3px dotted #cccccc;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+ }
+ .catagorie{
+    border: 1px #cccccc solid;
+    padding:10px;
+    border-radius: 15px;
+}
+.catagorie h2{
+    text-align: center;
+}
+.catagorie ul{
+    padding: 0;
+    padding: 20px;
+    list-style: square;
+    list-style: none;
+}
+ .catagorie li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333333;
+    list-style-image: url('react.png');
+    
+} 
+.my-form{
+   padding: 20px;
+}
+.form-group{
+   padding-bottom: 15px;
+}
+.my-form label{
+   display: block;
+}
+.my-form input[type="text"],.my-form textarea{
+   padding: 8px;
+   width: 100%;
+   
+}
+.blockContainer{
+   background-color: red;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: auto;
+}
+.block{
+   float: left;
+   width: 30%;   
+   box-sizing: border-box;
+   border: 1px solid #cccccc;
+   padding: 10px;
+   border-radius: 10px;
+   margin-right: 25px;
+}
+.block1{
+   float: left;
+   width: 30%;   
+   box-sizing: border-box;
+   border: 1px solid #cccccc;
+   padding: 10px;
+   border-radius: 10px;
+}
+.footer{
+   margin-top:20px;
+   background-color: #333;
+}
